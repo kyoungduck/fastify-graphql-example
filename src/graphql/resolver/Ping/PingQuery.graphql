@@ -1,0 +1,6 @@
+type Query {
+  """
+  서버 호출 테스트용
+  """
+  ping: String!
+}
