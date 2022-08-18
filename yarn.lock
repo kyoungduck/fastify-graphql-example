@@ -3949,6 +3949,46 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastify-graphql-example@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "fastify-graphql-example@workspace:."
+  dependencies:
+    "@envelop/core": ^2.4.2
+    "@graphql-codegen/add": ^3.2.1
+    "@graphql-codegen/cli": ^2.11.5
+    "@graphql-codegen/introspection": ^2.2.1
+    "@graphql-codegen/schema-ast": ^2.5.1
+    "@graphql-codegen/typescript": ^2.7.3
+    "@graphql-codegen/typescript-operations": ^2.5.3
+    "@graphql-codegen/typescript-resolvers": ^2.7.3
+    "@graphql-tools/schema": ^8.5.1
+    "@swc/cli": ^0.1.57
+    "@swc/core": ^1.2.224
+    "@trivago/prettier-plugin-sort-imports": ^3.3.0
+    "@types/node": ^18.7.3
+    "@typescript-eslint/eslint-plugin": ^5.33.0
+    "@typescript-eslint/parser": ^5.33.0
+    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.14
+    concurrently: ^7.3.0
+    esbuild: ^0.14.51
+    eslint: ^8.22.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-simple-import-sort: ^7.0.0
+    fastify: ^4.3.0
+    graphql: ^16.5.0
+    graphql-helix: ^1.13.0
+    graphql-playground-html: ^1.6.30
+    graphql-voyager: ^1.0.0-rc.31
+    nodemon: ^2.0.19
+    pino: ^8.4.1
+    pino-pretty: ^9.0.0
+    prettier: ^2.7.1
+    typescript: ^4.7.4
+    zod: ^3.18.0
+  languageName: unknown
+  linkType: soft
+
 "fastify@npm:^4.3.0":
   version: 4.3.0
   resolution: "fastify@npm:4.3.0"
@@ -4415,46 +4455,6 @@ __metadata:
   checksum: b15162a3d62f17b9b79302445b9ee330e041582f1c7faca74b9dec5daa74272c906ec1c34e1c50592bb6215e5c3eba80a309103f6ba9e4c1cddc350c46f010df
   languageName: node
   linkType: hard
-
-"graphql-to-rest-poc@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "graphql-to-rest-poc@workspace:."
-  dependencies:
-    "@envelop/core": ^2.4.2
-    "@graphql-codegen/add": ^3.2.1
-    "@graphql-codegen/cli": ^2.11.5
-    "@graphql-codegen/introspection": ^2.2.1
-    "@graphql-codegen/schema-ast": ^2.5.1
-    "@graphql-codegen/typescript": ^2.7.3
-    "@graphql-codegen/typescript-operations": ^2.5.3
-    "@graphql-codegen/typescript-resolvers": ^2.7.3
-    "@graphql-tools/schema": ^8.5.1
-    "@swc/cli": ^0.1.57
-    "@swc/core": ^1.2.224
-    "@trivago/prettier-plugin-sort-imports": ^3.3.0
-    "@types/node": ^18.7.3
-    "@typescript-eslint/eslint-plugin": ^5.33.0
-    "@typescript-eslint/parser": ^5.33.0
-    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.14
-    concurrently: ^7.3.0
-    esbuild: ^0.14.51
-    eslint: ^8.22.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-simple-import-sort: ^7.0.0
-    fastify: ^4.3.0
-    graphql: ^16.5.0
-    graphql-helix: ^1.13.0
-    graphql-playground-html: ^1.6.30
-    graphql-voyager: ^1.0.0-rc.31
-    nodemon: ^2.0.19
-    pino: ^8.4.1
-    pino-pretty: ^9.0.0
-    prettier: ^2.7.1
-    typescript: ^4.7.4
-    zod: ^3.18.0
-  languageName: unknown
-  linkType: soft
 
 "graphql-voyager@npm:^1.0.0-rc.31":
   version: 1.0.0-rc.31
