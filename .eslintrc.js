@@ -28,5 +28,6 @@ module.exports = {
     'import/first': 'error',
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
+    '@typescript-eslint/no-empty-interface': 'off',
   },
 };

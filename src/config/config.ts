@@ -1,12 +1,12 @@
-import { z } from "zod";
-import { ze } from "@internal/zod-extension";
+import { ze } from '@internal/zod-extension';
+import { z } from 'zod';
 
 const configZodSchema = z.object({
   webServerPort: ze.intString().transform(Number),
   stage: z.union([
-    z.literal("dev"),
-    z.literal("alpha"),
-    z.literal("production"),
+    z.literal('dev'),
+    z.literal('alpha'),
+    z.literal('production'),
   ]),
 });
 
@@ -20,7 +20,7 @@ export const loadConfig = async () => {
 
 export const getConfig = (): z.infer<typeof configZodSchema> => {
   if (config === null) {
-    throw new Error("config was not loaded");
+    throw new Error('config was not loaded');
   }
 
   return config;

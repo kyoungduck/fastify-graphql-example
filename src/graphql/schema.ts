@@ -1,10 +1,8 @@
+import { makeExecutableSchema } from "@graphql-tools/schema";
 import { GraphQLSchema } from "graphql";
 
-import { makeExecutableSchema } from "@graphql-tools/schema";
-
-import { resolvers } from "./resolver";
-
 import typeDefs from "./__generated__/typeDefs";
+import { resolvers } from "./resolver";
 
 let schema: GraphQLSchema | null = null;
 
